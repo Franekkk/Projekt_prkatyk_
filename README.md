@@ -46,3 +46,15 @@
 - tail - pokazuje koniec pliku
 - vi nazwapliku - wejscie do pliku
 - jeden - skrót -- pełna nazwa
+
+- Vim
+- esc - przechodzenie to trybu normalnego
+- : - przejście do wpisywanie komend
+- i - modyfikacja pliku
+- w - zapis
+- q - wyjście
+- q! - wymuszenie wyjśćia
+- hjkl - nawigazja w vimie
+- xr - usuwanie i modyfikacja 
+- dd - usuniecie linijki
+- u - undo
