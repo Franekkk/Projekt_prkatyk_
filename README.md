@@ -59,3 +59,4 @@
 - dd - usuniecie linijki
 - u - undo
 - konfiguracja pliku .bashrc (aliasy)
+- TEST
