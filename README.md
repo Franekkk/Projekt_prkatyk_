@@ -74,3 +74,15 @@
 - pobieranie stron i plików
 - testowanie lokalnych aplikacji
 - praca na zawartośći stron
+
+
+#### [Road map](https://roadmap.sh/)
+- Frontend 
+- Backend 
+- DevOps
+- Full Stack
+- QA
+- Software Architect 
+- C++
+- UX Design 
+- Game Developer 
