@@ -59,4 +59,8 @@
 - dd - usuniecie linijki
 - u - undo
 - konfiguracja pliku .bashrc (aliasy)
-- TEST
+
+#### Skrypt Bash'a
+-automatyzacja programu (automatuczne commitowanie)
+- #!/bin/bash - shabang zawsze na początku pliku .sh
+- echo - tekst który wyświetla program dla użytkownika
