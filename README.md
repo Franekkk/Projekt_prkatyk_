@@ -23,8 +23,8 @@
 
 ### Git bash
 ### Github
-### shell
-### vs code
+### Shell
+### Visual stidio code
 ### vi/vim
 
 
@@ -35,7 +35,7 @@
 - zasady urzymania stanowiska
 - bezpieczeństwo 
 
-- Bash
+#### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
 - cd - change direction
@@ -47,7 +47,7 @@
 - vi nazwapliku - wejscie do pliku
 - jeden - skrót -- pełna nazwa
 
-- Vim
+#### Vim
 - esc - przechodzenie to trybu normalnego
 - : - przejście do wpisywanie komend
 - i - modyfikacja pliku
@@ -58,3 +58,4 @@
 - xr - usuwanie i modyfikacja 
 - dd - usuniecie linijki
 - u - undo
+- konfiguracja pliku .bashrc (aliasy)
