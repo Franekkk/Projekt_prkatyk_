@@ -26,6 +26,7 @@
 ### Shell
 ### Visual stidio code
 ### vi/vim
+### Curl
 
 
 ## Zasoby
@@ -61,6 +62,15 @@
 - konfiguracja pliku .bashrc (aliasy)
 
 #### Skrypt Bash'a
--automatyzacja programu (automatuczne commitowanie)
-- #!/bin/bash - shabang zawsze na początku pliku .sh
+- automatyzacja programu (automatuczne commitowanie)
+- #!/bin/bash - shabang/shebang zawsze na początku pliku .sh
 - echo - tekst który wyświetla program dla użytkownika
+- exit 0 - program przechodzi bez błędów
+- exit "różna od zera" - program ma pokazywać błąd
+- nano - prosty edytor podobny do vima
+
+#### Curl
+- wysyłanie zapytań http 
+- pobieranie stron i plików
+- testowanie lokalnych aplikacji
+- praca na zawartośći stron
