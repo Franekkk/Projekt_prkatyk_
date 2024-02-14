@@ -17,6 +17,7 @@
 ### git push - zmiany wysyłane są z lokalnego na zdalne
 ### git fetch - pobranie zmian
 ### git rebase - łaczenie ze sobą commitów
+### git checkout -b "nazwa" - tworzenie nowej gałęzi i automatyczne przejście do niej
 ### tagami oznaczamy commity
 
 ## Narzędzia
@@ -27,14 +28,30 @@
 ### Visual stidio code
 ### vi/vim
 ### Curl
+### Przeglądarki
+### DevTools
 
 
 ## Zasoby
---------------
+
 ### 12.02.2024
 - BHP
 - zasady urzymania stanowiska
 - bezpieczeństwo 
+- konfiguracja stanowiska 
+- konto Github
+- narzędzia Bash/Shell/Vim/Visual Studio Code
+
+### 13.02.2024
+- konifguracja pliku .bashrc
+- pisanie skryptów .sh / shell'owych
+- podstawy HTTP
+- Curl
+
+### 14.02.2024
+- Github tworzenie pól request
+- Przeglądarki
+- DevTools
 
 #### Bash
 
@@ -47,6 +64,7 @@
 - tail - pokazuje koniec pliku
 - vi nazwapliku - wejscie do pliku
 - jeden - skrót -- pełna nazwa
+- rm - remove usuwanie
 
 #### Vim
 - esc - przechodzenie to trybu normalnego
@@ -86,3 +104,5 @@
 - C++
 - UX Design 
 - Game Developer 
+
+
