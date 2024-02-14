@@ -3,21 +3,21 @@
 
 ### przegląd historii zmian zachodzących w plikach  
 ### branching - rozgałęzianie kodu
-### git init - zainizjalizowanie repozytorium    
-### git clean - usuwanie plików (nie da się przywrócić)
-### git reset - odwrotność git add
-### git checkout - usuwanie zmian do poprzedniego stanu
-### git rm - usuwanie z repozytorium (można przywrócić)
-### git log - wyświetla historie pliku
-### git revert - odwrócenie zmian  z poprzedniego commitu i zapisanie go jako nowy commit
-### git merge - łączenie branchy
-### git status - status kodu
-### git stash - stos używany przy nadpisywaniu branchy
-### git stash pop - przepisanie treści stosu
-### git push - zmiany wysyłane są z lokalnego na zdalne
-### git fetch - pobranie zmian
-### git rebase - łaczenie ze sobą commitów
-### git checkout -b "nazwa" - tworzenie nowej gałęzi i automatyczne przejście do niej
+### `git init` - zainizjalizowanie repozytorium    
+### `git clean` - usuwanie plików (nie da się przywrócić)
+### `git reset` - odwrotność git add
+### `git checkout` - usuwanie zmian do poprzedniego stanu
+### `git rm` - usuwanie z repozytorium (można przywrócić)
+### `git log` - wyświetla historie pliku
+### `git revert` - odwrócenie zmian  z poprzedniego commitu i zapisanie go jako nowy commit
+### `git merge` - łączenie branchy
+### `git status` - status kodu
+### `git stash` - stos używany przy nadpisywaniu branchy
+### `git stash pop` - przepisanie treści stosu
+### `git push` - zmiany wysyłane są z lokalnego na zdalne
+### `git fetch` - pobranie zmian
+### `git rebase` - łaczenie ze sobą commitów
+### `git checkout -b "nazwa"` - tworzenie nowej gałęzi i automatyczne przejście do niej
 ### tagami oznaczamy commity
 
 ## Narzędzia
@@ -26,10 +26,10 @@
 ### Github
 ### Shell
 ### Visual stidio code
-### vi/vim
-### Curl
+### [vi/vim](https://www.vim.org/)
+### [Curl](https://curl.se/docs/manpage.html)
 ### Przeglądarki
-### DevTools
+### [Chrome DevTools](https://developer.chrome.com/docs/devtools?hl=pl)
 
 
 ## Zasoby
@@ -64,7 +64,7 @@
 - tail - pokazuje koniec pliku
 - vi nazwapliku - wejscie do pliku
 - jeden - skrót -- pełna nazwa
-- rm - remove usuwanie
+- `rm` - remove usuwanie
 
 #### Vim
 - esc - przechodzenie to trybu normalnego
