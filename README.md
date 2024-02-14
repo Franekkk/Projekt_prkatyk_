@@ -3,20 +3,22 @@
 
 ### przegląd historii zmian zachodzących w plikach  
 ### branching - rozgałęzianie kodu
-### git init - zainizjalizowanie repozytorium    
-### git clean - usuwanie plików (nie da się przywrócić)
-### git reset - odwrotność git add
-### git checkout - usuwanie zmian do poprzedniego stanu
-### git rm - usuwanie z repozytorium (można przywrócić)
-### git log - wyświetla historie pliku
-### git revert - odwrócenie zmian  z poprzedniego commitu i zapisanie go jako nowy commit
-### git merge - łączenie branchy
-### git status - status kodu
-### git stash - stos używany przy nadpisywaniu branchy
-### git stash pop - przepisanie treści stosu
-### git push - zmiany wysyłane są z lokalnego na zdalne
-### git fetch - pobranie zmian
-### git rebase - łaczenie ze sobą commitów
+### `git init` - zainizjalizowanie repozytorium    
+### `git clean` - usuwanie plików (nie da się przywrócić)
+### `git reset` - odwrotność git add
+### `git checkout` - usuwanie zmian do poprzedniego stanu
+### `git checkout -` - przełączanie na poprzedniego branch'a
+### `git checkout -b "nazwa"` - tworzenie nowej gałęzi i automatyczne przejście do niej
+### `git rm` - usuwanie z repozytorium (można przywrócić)
+### `git log` - wyświetla historie pliku
+### `git revert` - odwrócenie zmian  z poprzedniego commitu i zapisanie go jako nowy commit
+### `git merge` - łączenie branchy
+### `git status` - status kodu
+### `git stash` - stos używany przy nadpisywaniu branchy
+### `git stash pop` - przepisanie treści stosu
+### `git push` - zmiany wysyłane są z lokalnego na zdalne
+### `git fetch` - pobranie zmian
+### `git rebase` - łaczenie ze sobą commitów
 ### tagami oznaczamy commity
 
 ## Narzędzia
@@ -25,16 +27,32 @@
 ### Github
 ### Shell
 ### Visual stidio code
-### vi/vim
-### Curl
+### [vi/vim](https://www.vim.org/)
+### [Curl](https://curl.se/docs/manpage.html)
+### Przeglądarki
+### [Chrome DevTools](https://developer.chrome.com/docs/devtools?hl=pl)
 
 
 ## Zasoby
---------------
+
 ### 12.02.2024
 - BHP
 - zasady urzymania stanowiska
 - bezpieczeństwo 
+- konfiguracja stanowiska 
+- konto Github
+- narzędzia Bash/Shell/Vim/Visual Studio Code
+
+### 13.02.2024
+- konifguracja pliku .bashrc
+- pisanie skryptów .sh / shell'owych
+- podstawy HTTP
+- Curl
+
+### 14.02.2024
+- Github tworzenie pól request
+- Przeglądarki
+- DevTools
 
 #### Bash
 
@@ -47,6 +65,7 @@
 - tail - pokazuje koniec pliku
 - vi nazwapliku - wejscie do pliku
 - jeden - skrót -- pełna nazwa
+- `rm` - remove usuwanie
 
 #### Vim
 - esc - przechodzenie to trybu normalnego
@@ -86,3 +105,5 @@
 - C++
 - UX Design 
 - Game Developer 
+
+
