@@ -7,6 +7,8 @@
 ### `git clean` - usuwanie plików (nie da się przywrócić)
 ### `git reset` - odwrotność git add
 ### `git checkout` - usuwanie zmian do poprzedniego stanu
+### `git checkout -` - przełączanie na poprzedniego branch'a
+### `git checkout -b "nazwa"` - tworzenie nowej gałęzi i automatyczne przejście do niej
 ### `git rm` - usuwanie z repozytorium (można przywrócić)
 ### `git log` - wyświetla historie pliku
 ### `git revert` - odwrócenie zmian  z poprzedniego commitu i zapisanie go jako nowy commit
@@ -17,7 +19,6 @@
 ### `git push` - zmiany wysyłane są z lokalnego na zdalne
 ### `git fetch` - pobranie zmian
 ### `git rebase` - łaczenie ze sobą commitów
-### `git checkout -b "nazwa"` - tworzenie nowej gałęzi i automatyczne przejście do niej
 ### tagami oznaczamy commity
 
 ## Narzędzia
