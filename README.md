@@ -19,6 +19,7 @@
 ### `git push` - zmiany wysyłane są z lokalnego na zdalne
 ### `git fetch` - pobranie zmian
 ### `git rebase` - łaczenie ze sobą commitów
+### `git pull` - update brnach z repo
 ### tagami oznaczamy commity
 
 ## Narzędzia
@@ -50,9 +51,10 @@
 - Curl
 
 ### 14.02.2024
-- Github tworzenie pól request
+- Github tworzenie **Pull Request**, proces **Code Review**, **Merge** do main
 - Przeglądarki
 - DevTools
+- 
 
 #### Bash
 
