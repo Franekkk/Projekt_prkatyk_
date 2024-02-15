@@ -54,7 +54,14 @@
 - Github tworzenie **Pull Request**, proces **Code Review**, **Merge** do main
 - Przeglądarki
 - DevTools
-- 
+
+### 15.02.2024 
+- konfiguracja serwera FTP
+- DNS
+- instalacja DHCP
+- konifguracja serwera WWW
+- egzamin zawodowy EE11
+- struktry danych tablice 
 
 #### Bash
 
