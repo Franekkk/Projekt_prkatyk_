@@ -63,6 +63,11 @@
 - egzamin zawodowy EE11
 - struktry danych tablice 
 
+### 16.02.2024
+- rozwiązywanie konfliktów Github (git rebase)
+- struktury Danych tablice oraz listy
+
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
