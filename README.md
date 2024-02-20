@@ -72,6 +72,9 @@
 - Odzyskiwanie systemu
 - kofiguracja BIOS
 
+### 20.02.2024
+- ssh key for github
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
