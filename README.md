@@ -67,6 +67,10 @@
 - rozwiązywanie konfliktów Github (git rebase)
 - struktury Danych tablice oraz listy
 
+### 19.02.2024
+- Diagnostyka Systemu Windows 
+- Odzyskiwanie systemu
+- kofiguracja BIOS
 
 #### Bash
 
