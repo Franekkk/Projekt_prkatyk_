@@ -1,0 +1,64 @@
+.verb{
+  text-align: center;
+  margin-top: 30px;
+  height: 40px;
+  
+  
+  
+  
+}
+
+input{
+  border: 6px solid #FF8C00;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font: bold;
+  
+}
+input, select , textarea{
+  color: white;
+}
+
+::placeholder{
+  color: white;
+}
+.sub{
+ margin-top: 15px;
+ text-align: center;
+}
+button{
+  color: white;
+ background-color: black;
+ border: 6px solid #FF8C00;
+  border-radius: 15px;
+}
+button:hover{
+  background-color: #FF8C00;
+  color: black;
+  font: bold;
+}
+.hr-one{
+margin-top: 40px;
+
+}
+hr{
+  border: 1px solid #FF8C00;
+}
+h3{
+  color: white;
+  margin-left: 5px;
+}
+.list{
+text-align: left;
+
+
+}
+ol{
+  color: white;
+}
+li{
+  color: white;
+}
+*{
+  background-color: black;
+}
