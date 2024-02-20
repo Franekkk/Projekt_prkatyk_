@@ -74,6 +74,7 @@
 
 ### 20.02.2024
 - ssh key for github
+- CSS, flex 
 
 #### Bash
 
