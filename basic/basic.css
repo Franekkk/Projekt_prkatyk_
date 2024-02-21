@@ -1,0 +1,52 @@
+* {
+  background-color: black;
+}
+body {
+  padding-top: 30px;
+  color: white;
+}
+
+input {
+  border: 6px solid #ff8c00;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font: bold;
+  color: white;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: 6px solid #ff8c00;
+  border-radius: 15px;
+  text-align: center;
+  width: 7%;
+  display: block;
+}
+
+.content {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 7rem;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #ff8c00;
+  color: black;
+  font: bold;
+}
+
+hr {
+  border: 1px solid #ff8c00;
+  margin-top: 40px;
+}
+h3 {
+  margin-left: 5px;
+}
