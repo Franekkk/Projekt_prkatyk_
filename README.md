@@ -112,6 +112,11 @@
 - polecenia mv,cp
 - konifguracja urzytkownika git config
 
+### 21.02.2024
+
+- metody filter,map,join
+- praca nad projektem basic
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
