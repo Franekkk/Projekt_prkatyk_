@@ -37,6 +37,15 @@ button {
   align-items: center;
 }
 
+.content-row {
+  justify-content: center;
+  display: flex;
+  height: 4rem;
+  align-items: center;
+}
+.FIL {
+  margin-left: 40px;
+}
 button:hover {
   background-color: #ff8c00;
   color: black;
