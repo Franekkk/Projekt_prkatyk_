@@ -23,6 +23,8 @@ input {
   color: white;
   text-align: center;
   flex-direction: row;
+  max-width: 700px;
+  margin: auto;
 }
 ::placeholder {
   color: white;
@@ -40,6 +42,8 @@ button {
 .submit {
   justify-content: center;
   margin-left: 47%;
+  min-width: 100px;
+  margin: auto;
 }
 
 .content {
@@ -48,27 +52,21 @@ button {
   flex-direction: row;
   height: 7rem;
   align-items: center;
-  margin-right: 300px;
-  margin-left: 300px;
 }
 
 .content-row {
   justify-content: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 100px;
   height: 4rem;
   align-items: center;
 }
-.FIL {
-  margin-left: 40px;
+.filter-btn {
+  min-width: 100px;
+  margin: auto;
 }
 .changeColor {
   border: 6px solid red;
-  /* border-radius: 15px;
-  font-family: sans-serif;
-  font: bold;
-  color: white;
-  text-align: center;
-  flex-direction: row; */
 }
 button:hover {
   background-color: #ff8c00;
@@ -82,4 +80,18 @@ hr {
 }
 h3 {
   margin-left: 5px;
+}
+.gridBtn {
+  color: white;
+  background-color: black;
+  border: 1px solid #ff8c00;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+}
+.myList {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 20px;
+  justify-content: center;
 }

@@ -46,10 +46,13 @@ function entry() {
       const newDiv = document.createElement("div");
       newDiv.textContent = inputObj.verb;
       console.log("newDiv", newDiv);
+      newDiv.classList.add("gridBtn");
       const newDiv2 = document.createElement("div");
       newDiv2.textContent = inputObj.sp;
+      newDiv2.classList.add("gridBtn");
       const newDiv3 = document.createElement("div");
       newDiv3.textContent = inputObj.pp;
+      newDiv3.classList.add("gridBtn");
       return `${newDiv.outerHTML}${newDiv2.outerHTML}${newDiv3.outerHTML}`;
     });
     divList.innerHTML = mappedInputs.join("");
