@@ -117,6 +117,12 @@
 - metody filter,map,join
 - praca nad projektem basic
 
+### 22.02.2024
+
+- modyfikacje klas na elemntach html
+- stylowanie layout'u za pomocą css grid
+- operacje na tablicach kotunuacja
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
