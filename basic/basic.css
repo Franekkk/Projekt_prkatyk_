@@ -13,8 +13,17 @@ input {
   font: bold;
   color: white;
   text-align: center;
+  flex-direction: row;
 }
-
+.enterInputs {
+  border: 6px solid #ff8c00;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font: bold;
+  color: white;
+  text-align: center;
+  flex-direction: row;
+}
 ::placeholder {
   color: white;
 }
@@ -28,13 +37,19 @@ button {
   width: 7%;
   display: block;
 }
+.submit {
+  justify-content: center;
+  margin-left: 47%;
+}
 
 .content {
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 7rem;
   align-items: center;
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 .content-row {
@@ -45,6 +60,15 @@ button {
 }
 .FIL {
   margin-left: 40px;
+}
+.changeColor {
+  border: 6px solid red;
+  /* border-radius: 15px;
+  font-family: sans-serif;
+  font: bold;
+  color: white;
+  text-align: center;
+  flex-direction: row; */
 }
 button:hover {
   background-color: #ff8c00;
