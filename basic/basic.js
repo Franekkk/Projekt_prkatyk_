@@ -8,15 +8,13 @@ const editBtn = document.querySelector(".filter-btn");
 const filter_input = document.querySelector(".input2");
 
 const inputArr = [];
-let arrayValue = [];
+
 let enterValues = [];
 let edited;
-const olElement = document.getElementById("ListIdenti");
+const fields = [field, field2, field3];
 
 function entry() {
   if (field.value === "" || field2.value === "" || field3.value === "") {
-    // alert("pole musi byc wypelnione");
-
     if (field.value === "") {
       field.className = "changeColor";
     }
@@ -32,38 +30,35 @@ function entry() {
       sp: field2.value,
       pp: field3.value,
     };
-    resetField(field2);
-    resetField(field3);
-    resetField(field);
-    arrayValue.push(field.value);
+    fields.forEach(resetField);
+
     enterValues.push(field.value);
     li2 = document.createElement("li");
-    li2.innerHTML = arrayValue;
-    olElement.appendChild(li2);
+    divList.appendChild(li2);
     inputArr.push(combinedObj);
-    console.log(combinedObj);
-    const mappedInputs = inputArr.map((inputObj) => {
-      const newDiv = document.createElement("div");
-      newDiv.textContent = inputObj.verb;
-      console.log("newDiv", newDiv);
-      newDiv.classList.add("gridBtn");
-      const newDiv2 = document.createElement("div");
-      newDiv2.textContent = inputObj.sp;
-      newDiv2.classList.add("gridBtn");
-      const newDiv3 = document.createElement("div");
-      newDiv3.textContent = inputObj.pp;
-      newDiv3.classList.add("gridBtn");
-      return `${newDiv.outerHTML}${newDiv2.outerHTML}${newDiv3.outerHTML}`;
-    });
+
+    const mappedInputs = inputArr.map(mapDivs);
     divList.innerHTML = mappedInputs.join("");
-    console.log("zmapowana", mappedInputs);
-    arrayValue.pop(field.value);
   }
 }
+
+function mapDivs(inputObj) {
+  const { verb, sp, pp } = inputObj;
+  return [verb, sp, pp].map(prepairDiv).join("");
+}
+
 function resetField(field) {
   field.value = "";
   field.classList.remove("changeColor");
 }
+
+function prepairDiv(inputValue) {
+  const newDiv = document.createElement("div");
+  newDiv.textContent = inputValue;
+  newDiv.classList.add("gridBtn");
+  return newDiv.outerHTML;
+}
+
 function edit() {
   if (filter_input.value === "") {
     editBtn.disabled = true;
@@ -72,22 +67,13 @@ function edit() {
     const filtered = enterValues.filter(
       (enterValue) => enterValue === filter_input.value
     );
-
-    console.log(filtered);
-    while (arrayValue.length !== 0) {
-      arrayValue.pop();
-    }
-    console.log(arrayValue);
-
     const createArr = filtered.map((item) => {
       const newLi = document.createElement("li");
       newLi.innerHTML = item;
       return newLi.outerHTML;
     });
 
-    olElement.innerHTML = createArr.join("");
-
-    console.log(createArr);
+    divList.innerHTML = createArr.join("");
   }
 }
 
