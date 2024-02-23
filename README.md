@@ -123,6 +123,16 @@
 - stylowanie layout'u za pomocą css grid
 - operacje na tablicach kotunuacja
 
+### 23.02.2024
+
+- montaż komputera
+- praca na tablicach
+- konfiguracja oporgramowania instalacja systemu
+- powtórka z set up stanowsika developerskeigo
+- metody na tablicach
+- refactor kodu
+- skróty klawiszowe Visual studio code
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
