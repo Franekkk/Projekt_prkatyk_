@@ -9,16 +9,40 @@
   </head>
   <body>
     <div class="content">
-      <input type="text" placeholder="ENTER A VERB" id="input1" />
-      <button id="subBtn">SUBMIT</button>
+      <input
+        type="text"
+        placeholder="ENTER A VERB"
+        id="input1"
+        class="enterInputs"
+      />
+      <input
+        type="text"
+        placeholder="ENTER A VERB"
+        id="input2"
+        class="enterInputs"
+      />
+      <input
+        type="text"
+        placeholder="ENTER A VERB"
+        id="input3"
+        class="enterInputs"
+      />
     </div>
+    <button id="subBtn" class="submit">SUBMIT</button>
 
+    <hr />
+
+    <div class="content-row">
+      <input type="text" class="input2" />
+      <button class="filter-btn">FILTER</button>
+    </div>
     <hr />
 
     <h3>List:</h3>
 
-    <ol class="myList" id="ListIdenti"></ol>
+    <div class="myList" id="divList"></div>
 
+    <ol class="myList" id="ListIdenti"></ol>
     <script src="basic.js"></script>
   </body>
 </html>

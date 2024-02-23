@@ -13,8 +13,19 @@ input {
   font: bold;
   color: white;
   text-align: center;
+  flex-direction: row;
 }
-
+.enterInputs {
+  border: 6px solid #ff8c00;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font: bold;
+  color: white;
+  text-align: center;
+  flex-direction: row;
+  max-width: 700px;
+  margin: auto;
+}
 ::placeholder {
   color: white;
 }
@@ -28,15 +39,35 @@ button {
   width: 7%;
   display: block;
 }
+.submit {
+  justify-content: center;
+  margin-left: 47%;
+  min-width: 100px;
+  margin: auto;
+}
 
 .content {
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 7rem;
   align-items: center;
 }
 
+.content-row {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 100px;
+  height: 4rem;
+  align-items: center;
+}
+.filter-btn {
+  min-width: 100px;
+  margin: auto;
+}
+.changeColor {
+  border: 6px solid red;
+}
 button:hover {
   background-color: #ff8c00;
   color: black;
@@ -49,4 +80,18 @@ hr {
 }
 h3 {
   margin-left: 5px;
+}
+.gridBtn {
+  color: white;
+  background-color: black;
+  border: 1px solid #ff8c00;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+}
+.myList {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 20px;
+  justify-content: center;
 }
