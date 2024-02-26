@@ -138,6 +138,7 @@
 - ćwiczenia z zastosowania metod tablicowych
   (map,filter,reduce,forEach)
 - implementacja dodatkowych metod na obiekcie Array (cocat,concatAll)
+- typy danych w java script
 
 #### Bash
 
