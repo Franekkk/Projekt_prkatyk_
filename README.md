@@ -133,6 +133,12 @@
 - refactor kodu
 - skróty klawiszowe Visual studio code
 
+### 26.02.2024
+
+- ćwiczenia z zastosowania metod tablicowych
+  (map,filter,reduce,forEach)
+- implementacja dodatkowych metod na obiekcie Array (cocat,concatAll)
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
