@@ -32,6 +32,7 @@ function entry() {
 
     const mappedInputs = inputArr.map(mapDivs);
     divList.innerHTML = mappedInputs.join("");
+    ``;
   }
 }
 
