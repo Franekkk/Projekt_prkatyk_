@@ -23,8 +23,6 @@ input {
   color: white;
   text-align: center;
   flex-direction: row;
-  max-width: 700px;
-  margin: auto;
 }
 ::placeholder {
   color: white;
@@ -52,6 +50,8 @@ button {
   flex-direction: row;
   height: 7rem;
   align-items: center;
+  max-width: 700px;
+  margin: auto;
 }
 
 .content-row {
