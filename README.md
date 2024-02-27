@@ -140,6 +140,15 @@
 - implementacja dodatkowych metod na obiekcie Array (cocat,concatAll)
 - typy danych w java script
 
+### 27.02.2024
+
+- operacje na talbicach
+- metody some every
+- łańcuchowe łączenie metod tablicowch
+- hoisting w javascript
+- destrukturyzacja tablic
+- refaktor - pozbywanie się magic strings
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
