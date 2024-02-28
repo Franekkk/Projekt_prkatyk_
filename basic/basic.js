@@ -6,33 +6,42 @@ const field3 = document.getElementById("input3");
 const divList = document.getElementById("divList");
 const filtrBtn = document.querySelector(".filter-btn");
 const filter_input = document.querySelector(".input2");
+const resetBtn = document.querySelector(".reset-btn");
 
+filtrBtn.disabled = true;
+resetBtn.disabled = true;
 const [CHANGE_COLOR, ENTER_INPUTS, CELL] = ["changeColor", "enterInputs", "cell"];
 const [CLICK, KEYPRESS, ENTER] = ["click", "keypress", "Enter"];
 const [LI, DIV] = ["li", "div"];
 const EMPTY_STRING = "";
-const inputArr = [];
+const globalArr = [];
 let enterValues = [];
+let combinedObj = {};
+
 const fields = [field, field2, field3];
 const checkEmpty = (element) => element.value === EMPTY_STRING;
+const checkLength = (element) => element.length === 0;
 
 function entry() {
   if (fields.some(checkEmpty)) {
     fields.forEach(chooseClass);
   } else {
-    const combinedObj = {
+    let combinedObj = {
       verb: field.value,
       sp: field2.value,
       pp: field3.value,
     };
+    console.log(combinedObj);
     fields.forEach(resetField);
 
     enterValues.push(field.value);
     li2 = document.createElement(LI);
     divList.appendChild(li2);
-    inputArr.push(combinedObj);
+    globalArr.push(combinedObj);
 
-    divList.innerHTML = inputArr.map(mapDivs).join(EMPTY_STRING);
+    divList.innerHTML = globalArr.map(mapDivs).join(EMPTY_STRING);
+    filtrBtn.disabled = false;
+    resetBtn.disabled = false;
   }
 }
 
@@ -60,18 +69,28 @@ function createLi(element) {
   newLi.innerHTML = element;
   return newLi.outerHTML;
 }
+
+function equalToDiv(element) {
+  const result =
+    element.verb.includes(filter_input.value) ||
+    element.sp.includes(filter_input.value) ||
+    element.pp.includes(filter_input.value);
+  console.log(result);
+  return result;
+}
 function filtrInputs() {
-  if (filter_input.value === EMPTY_STRING) {
-    filtrBtn.disabled = true;
+  if (globalArr.every(checkLength)) {
   } else {
-    filtrBtn.disabled = false;
-
-    const createArr = enterValues
-      .filter((enterValue) => enterValue === filter_input.value)
-      .map(createLi)
-      .join(EMPTY_STRING);
-
-    divList.innerHTML = createArr;
+    const even = globalArr.filter(equalToDiv);
+    console.log(even);
+    divList.innerHTML = even.map(mapDivs).join(EMPTY_STRING);
+  }
+}
+function reset() {
+  if (globalArr.every(checkLength)) {
+  } else {
+    divList.innerHTML = globalArr.map(mapDivs).join(EMPTY_STRING);
+    filter_input.value = EMPTY_STRING;
   }
 }
 
@@ -85,3 +104,4 @@ fields.forEach((field) => {
 });
 
 filtrBtn.addEventListener(CLICK, filtrInputs);
+resetBtn.addEventListener(CLICK, reset);

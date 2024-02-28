@@ -57,11 +57,15 @@ button {
 .content-row {
   justify-content: center;
   display: grid;
-  grid-template-columns: 200px 100px;
+  grid-template-columns: 200px 100px 100px;
   height: 4rem;
   align-items: center;
 }
 .filter-btn {
+  min-width: 100px;
+  margin: auto;
+}
+.reset-btn {
   min-width: 100px;
   margin: auto;
 }
@@ -72,6 +76,13 @@ button:hover {
   background-color: #ff8c00;
   color: black;
   font: bold;
+}
+button:disabled:hover {
+  background-color: black;
+}
+button:disabled {
+  color: grey;
+  border: 6px solid grey;
 }
 
 hr {
