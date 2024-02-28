@@ -149,6 +149,14 @@
 - destrukturyzacja tablic
 - refaktor - pozbywanie się magic strings
 
+### 28.02.2024
+
+- praca na tablicach metoda split reverse
+- praca z node js
+- menadzer pakietow npm
+- moduły z node js http fs path url
+- projekt z http z uzyciem http serwer z pakeitu node
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
