@@ -163,6 +163,7 @@
 - express js
 - budowa serwera api
 - testeowaie api przy pomocy postman'a
+- jade
 
 #### Bash
 
