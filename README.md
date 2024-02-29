@@ -157,6 +157,13 @@
 - moduły z node js http fs path url
 - projekt z http z uzyciem http serwer z pakeitu node
 
+### 29.02.2024
+
+- node js
+- express js
+- budowa serwera api
+- testeowaie api przy pomocy postman'a
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
