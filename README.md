@@ -165,6 +165,12 @@
 - testeowaie api przy pomocy postman'a
 - jade
 
+### 04.03.2024
+
+- mongoDB
+- uzcie node driver mongoDb
+- biblioteka mangoose aczenia z baza update kolekcji
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
