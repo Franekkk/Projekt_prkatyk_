@@ -170,6 +170,7 @@
 - mongoDB
 - uzcie node driver mongoDb
 - biblioteka mangoose aczenia z baza update kolekcji
+- skrecanie wtyjtu rj45
 
 #### Bash
 
