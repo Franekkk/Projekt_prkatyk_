@@ -7,7 +7,7 @@ router.get("/verbs", async (req, res) => {
     verbSchema
       .find()
       .then((verbs) => {
-        console.log(verbs);
+        // console.log(verbs);
         res.status(200).json({ verbs });
       })
       .catch((error) => {
@@ -20,12 +20,12 @@ router.get("/verbs", async (req, res) => {
   }
 });
 router.post("/verbs", async (req, res) => {
+  console.log("######################################", req.body);
   try {
     const newVerb = new verbSchema(req.body);
     await newVerb
       .save()
       .then((savedVerb) => {
-        console.log(savedVerb);
         res.status(201).json({ msg: "verb succesfully saved" });
       })
       .catch((error) => {

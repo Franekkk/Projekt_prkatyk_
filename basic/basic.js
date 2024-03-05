@@ -17,10 +17,18 @@ const EMPTY_STRING = "";
 const globalArr = [];
 let enterValues = [];
 let combinedObj = {};
-
+const url = "http://localhost:3000/api/verbs";
 const fields = [field, field2, field3];
 const checkEmpty = (element) => element.value === EMPTY_STRING;
 const checkLength = (element) => element.length === 0;
+
+async function getData() {
+  const response = await fetch(url);
+  const data = await response.json();
+  globalArr.push(...data.verbs);
+  reset();
+  console.log(globalArr);
+}
 
 function entry() {
   if (fields.some(checkEmpty)) {
@@ -38,13 +46,20 @@ function entry() {
     li2 = document.createElement(LI);
     divList.appendChild(li2);
     globalArr.push(combinedObj);
-
+    createVerb(combinedObj);
     divList.innerHTML = globalArr.map(mapDivs).join(EMPTY_STRING);
     filtrBtn.disabled = false;
     resetBtn.disabled = false;
   }
 }
 
+function createVerb(data) {
+  console.log(data);
+  fetch(url, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
 function mapDivs(inputObj) {
   const { verb, sp, pp } = inputObj;
   return [verb, sp, pp].map(prepairDiv).join(EMPTY_STRING);
@@ -105,3 +120,4 @@ fields.forEach((field) => {
 
 filtrBtn.addEventListener(CLICK, filtrInputs);
 resetBtn.addEventListener(CLICK, reset);
+getData();
