@@ -172,6 +172,12 @@
 - biblioteka mangoose aczenia z baza update kolekcji
 - skrecanie wtyjtu rj45
 
+### 05.03.2024
+
+- metoda fetch
+- mangoose
+- CRUD
+
 #### Bash
 
 - pwd - pokazanie lokazlizacji w ktorej sie znajdujesz
